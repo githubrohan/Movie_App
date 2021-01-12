@@ -5,7 +5,6 @@ import ListGroup from './common/listGroup';
 import {getGenres} from "../services/fakeGenreService";
 import { getMovies } from "../services/fakeMovieService";
 import {paginate} from '../utils/paginate';
-import { get } from "lodash";
 import _ from "lodash";
 
 class Movies extends Component {
